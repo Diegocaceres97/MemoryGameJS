@@ -75,7 +75,7 @@ function checkMatch(){
     alert('You have clicked the same image!!!');
   }else{
   if(cardsChosen[0] == cardsChosen[1]) {
-    alert('You found a maatch')
+    alert('You found a match😎')
     cards[optionOneId].setAttribute('src','img/white.png');
     cards[optionTwoId].setAttribute('src','img/white.png');
     cards[optionOneId].removeEventListener('click', flipCard);
